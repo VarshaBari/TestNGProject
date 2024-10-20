@@ -5,15 +5,14 @@ import org.openqa.selenium.support.PageFactory;
 
 import testcases.BaseClass;
 
-public class HomePage extends BaseClass{
-	
-	WebDriver driver=BaseClass.driver;
-	
-	public HomePage() {
-		
+public class HomePage extends BaseClass {
+
+	WebDriver driver;
+
+	public HomePage(WebDriver driver) {
+
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		
 	}
-	
 
 }

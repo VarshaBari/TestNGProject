@@ -1,0 +1,7 @@
+testcases/LoginTest.class
+testcases/BaseClass.class
+com/simplilearn/TestNGProject/AppTest.class
+grid/SeleniumGridExample.class
+testcases/HomePageTest.class
+pages/HomePage.class
+pages/LoginPage.class

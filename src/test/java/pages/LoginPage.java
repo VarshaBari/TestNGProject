@@ -11,7 +11,7 @@ import testcases.BaseClass;
 
 public class LoginPage {
 
-	WebDriver driver = BaseClass.driver;
+	WebDriver driver;
 
 //==================== Locators ======================
 
@@ -35,8 +35,9 @@ public class LoginPage {
 
 	// ====================== Functions =====================
 
-	public LoginPage() {
+	public LoginPage(WebDriver driver) {
 
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
